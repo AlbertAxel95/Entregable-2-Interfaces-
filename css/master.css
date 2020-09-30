@@ -1,0 +1,71 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body{
+    font-family: 'Luckiest Guy';
+    background-image: url("../images/casino.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1{ /* Título y jugador ganador */
+    font-size: 4em;
+    /* text-shadow: 7px 7px rgb(59, 58, 48); */
+    color: rgb(255, 148, 129);
+    text-shadow: 7px 7px rgb(59, 58, 48);
+}
+
+h2{ /* firstPlayer name y secondPlayer name */
+    text-shadow: 4px 4px 10px rgb(248, 221, 166);
+    color: #ffee22;
+}
+
+#displayWinner{
+    font-size: 2em;
+    color: rgb(248, 242, 70);
+    text-shadow: 3px 0 0 #8c5826, -3px 0 0 #8c5826, 0 3px 0 #8c5826, 0 -3px 0 #ff9934, 2px 2px #ff9934, -2px -2px 0 #ff9934, 2px -2px 0 #ff9934, -2px 2px 0 #ff9934;
+}
+
+.container{
+    margin-top: 1px;
+    width: 1130px;  min-width: 1130px;
+    height: 700px;  min-height: 700px;
+    background-image: url("../images/containerBackground.png");
+    border-radius: 20px;
+    box-shadow: 0 5px 20px 10px rgb(0, 0, 0);
+}
+
+#firstPlayer, #secondPlayer{
+    text-transform: capitalize;
+}
+
+#firstPlayer{
+    color: rgb(245, 46, 46);
+}
+
+#secondPlayer{
+    color: rgb(84, 99, 255);
+}
+
+.activeTurn{
+    box-shadow: 0 5px 20px 10px rgb(206, 18, 169);
+    border-radius: 20px;
+    background-color: rgb(255, 253, 208);
+}
+
+.playerName{
+    padding-right: 0;
+}
+
+.buttonName{
+    padding-left: 0;
+}
+
+#resetButton{
+    
+}
