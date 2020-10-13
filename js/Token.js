@@ -1,11 +1,11 @@
 
 class Token{
-    constructor(x, y, player_id, src){
-        this.x = (x + 28.5);
-        this.y = (y + 28.5);
+    constructor(args = {}){
+        this.x = (parseInt(args.posX) + 28.5);
+        this.y = (parseInt(args.posY) + 28.5);
         // ID = 1 (Player 1);  ID = 2 (Player 2).
-        this.id = player_id;
-        this.src = src;
+        this.id = parseInt(args.id);
+        this.src = args.src;
         // diametro de 74px
         this.radius = 28.5;
         // Inicialmente esta Token NO FUE jugada.
